@@ -1,33 +1,9 @@
-# CV Builder
+# 💌 CV Builder
 
-Aplicação pessoal para manter um currículo-base, personalizar versões para vagas e exportar em Word/PDF.
+Aplicação pessoal para editar meu currículo-base, personalizar versões e exportar em Word/PDF.
 
-## Tecnologias
-- Next.js 15 + React 19 + TypeScript
-- Persistência local no navegador (`localStorage`) nesta primeira versão
-- Exportação Word com `docx`
-- Exportação PDF com `jspdf`
-- Ícones `lucide-react`
 
-## Rodar localmente
-Requer Node.js 20.9 ou superior.
-
-```bash
-npm install
-npm run dev
-```
-Acesse http://localhost:3000.
-
-## Publicar na Vercel
-1. Crie um repositório no GitHub e envie os arquivos deste projeto.
-2. Na Vercel, escolha **Add New → Project** e importe o repositório.
-3. Framework Preset: Next.js (detecção automática).
-4. Build Command: `npm run build`.
-5. Clique em Deploy.
-
-Não são necessárias variáveis de ambiente nesta primeira versão.
-
-## Importante sobre os dados
+## 📌 Importante sobre os dados
 Esta versão salva o currículo e o histórico no `localStorage` do navegador. Os dados ficam neste navegador/dispositivo e não são sincronizados entre aparelhos. Antes de limpar os dados do navegador, exporte/guarde as informações. O upload da foto também fica salvo localmente no navegador.
 
 ## Funcionalidades incluídas
